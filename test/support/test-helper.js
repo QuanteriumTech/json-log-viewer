@@ -1,12 +1,12 @@
-require('../../src/polyfills');
+require('../../src/polyfills')
 
-const chai = require('chai');
-const chaiAsPromised = require('chai-as-promised');
-const sinon = require('sinon');
-const sinonChai = require('sinon-chai');
+const chai = require('chai')
+const chaiAsPromised = require('chai-as-promised')
+const sinon = require('sinon')
+const sinonChai = require('sinon-chai')
 
-chai.use(sinonChai);
-chai.use(chaiAsPromised);
+chai.use(sinonChai)
+chai.use(chaiAsPromised)
 
-global.expect = chai.expect;
-global.sinon = sinon;
+global.expect = chai.expect
+global.sinon = sinon
